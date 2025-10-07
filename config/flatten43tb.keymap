@@ -126,7 +126,7 @@
         default_layer {
             bindings = <
 &kp Q      &kp W           &kp E         &kp R                        &kp T                                                              &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S           &kp D         &kp F                        &kp G        &trans                             &kp ESCAPE         &kp H      &kp J  &kp K      &kp L    &kp MINUS
+&kp A      &kp S           &kp D         &kp F                        &kp G        &kp TILDE                          &kp ESCAPE         &kp H      &kp J  &kp K      &kp L    &kp MINUS
 &kp Z      &kp X           &kp C         &kp V                        &kp B        &lt_to_layer_0 3 COLON             &kp DOUBLE_QUOTES  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE      &lt 3 DEL                             &kp ENTER
             >;
@@ -145,10 +145,10 @@
 
         SYMBOL {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                    &kp UNDER  &kp TILDE      &kp TILDE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                    &kp UNDER  &kp TILDE      &kp SEMI     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp EXCLAMATION  &kp PLUS   &kp AMPERSAND  &kp HASH     &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &trans                       &kp QUESTION     &kp MINUS  &kp DOLLAR     &kp PERCENT  &kp LESS_THAN         &kp GREATER_THAN
-&kp LEFT_BRACE              &kp RIGHT_BRACE  &kp BACKSLASH    &kp PIPE         &trans        &trans                       &kp EQUAL        &trans                                                       &kp AT
+&kp LEFT_BRACE              &kp RIGHT_BRACE  &kp BACKSLASH    &kp PIPE         &trans        &trans                       &kp SLASH        &kp EQUAL                                                    &kp AT
             >;
         };
 
