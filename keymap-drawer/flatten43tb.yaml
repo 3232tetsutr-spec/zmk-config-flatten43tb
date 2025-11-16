@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - Sft+Gui+S
-  - '-'
+  - ESCAPE
   - H
   - J
   - K
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - ':'
-  - ;
+  - '"'
   - N
   - M
   - ','
@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - BACKSPACE
-  - {t: ENTER, h: FUNCTION}
+  - {t: DELETE, h: FUNCTION}
   - DEL
   FUNCTION:
   - {t: ▽, type: trans}
